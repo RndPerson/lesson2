@@ -13,6 +13,7 @@
 		84FDA1C82563D9210021501D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FDA1C62563D9210021501D /* Main.storyboard */; };
 		84FDA1CA2563D9A90021501D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FDA1C92563D9A90021501D /* Assets.xcassets */; };
 		84FDA1CD2563D9A90021501D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FDA1CB2563D9A90021501D /* LaunchScreen.storyboard */; };
+		84FDA1D82563F7DD0021501D /* newView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FDA1D72563F7DD0021501D /* newView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		84FDA1C92563D9A90021501D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FDA1CC2563D9A90021501D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FDA1CE2563D9A90021501D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FDA1D72563F7DD0021501D /* newView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = newView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				84FDA1C02563D9200021501D /* AppDelegate.swift */,
 				84FDA1C22563D9200021501D /* SceneDelegate.swift */,
 				84FDA1C42563D9200021501D /* ViewController.swift */,
+				84FDA1D72563F7DD0021501D /* newView.xib */,
 				84FDA1C62563D9210021501D /* Main.storyboard */,
 				84FDA1C92563D9A90021501D /* Assets.xcassets */,
 				84FDA1CB2563D9A90021501D /* LaunchScreen.storyboard */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FDA1CD2563D9A90021501D /* LaunchScreen.storyboard in Resources */,
+				84FDA1D82563F7DD0021501D /* newView.xib in Resources */,
 				84FDA1CA2563D9A90021501D /* Assets.xcassets in Resources */,
 				84FDA1C82563D9210021501D /* Main.storyboard in Resources */,
 			);
@@ -288,6 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
